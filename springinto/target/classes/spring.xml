@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+	<bean id="ca2" class="com.springinto.car">
+		<property name="id" value="103"></property>
+		<property name="name" value="Tata Tiago"></property>
+	</bean>
+
+
+	<bean id="ca" class="com.springinto.car">
+		<property name="id" value="101"></property>
+		<property name="name" value="MG Hector"></property>
+	</bean>
+	
+	
+	
+	
+
+	<bean id="bi" class="com.springinto.bike">
+		<property name="id" value="102"></property>
+		<property name="name" value="BMW 1250 GSA"></property>
+	</bean>
+
+
+
+
+</beans>
